@@ -1,7 +1,7 @@
 {% macro generate(input) %}
     {% if input.icon %}
     <div class="input-group">
-        <span class="input-group-addon"><i class="fa {{input.icon}} fa-fw"></i></span>
+        <span class="input-group-addon"><i class="{{input.icon}} fa-fw"></i></span>
     {% else %}
     <div class="form-group">
     {% endif %}
